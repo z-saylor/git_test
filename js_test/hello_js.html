@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testie</title>
+</head>
+<body>
+    <script>
+        add7 = x => x+7;
+
+        function multiply(a,b) {
+            let product = a*b
+            return product
+        }
+
+        function capitalize(word) {
+            let first = word.slice(0,1)
+            let rest = word.slice(1,word.length)
+            let capped = first.toUpperCase() + rest.toLowerCase()
+            return capped
+        }
+
+        function lastLetter(word) {
+            let last = word.slice(word.length - 1, word.length)
+            return last
+        }
+
+        console.log(lastLetter("hdy"))
+
+    </script>
+</body>
+</html>
