@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #333;
+}
+
+.container {
+    background: radial-gradient(white, black);
+    height: 500px;
+    width: 100vw;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1.content {
+    transform: skew(-35deg, 10deg);
+    color: #333;
+    filter: blur(.25px);
+    font-family:'Times New Roman', Times, serif;
+}
